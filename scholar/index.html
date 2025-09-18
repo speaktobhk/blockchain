@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/9.0.0/mdb.min.css"
+  rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+    <title>Scholarshipfinder.com</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3  fixed-top">
+      <div class="container">
+        <section id="home"></section> 
+        <a href="#" class="navbar-brand">Scholarshipfinder</a> 
+
+
+        <button class="navbar-toggler"
+         type="button" 
+         data-bs-toggle="collapse" 
+         data-bs-target="#navmenu">
+
+         <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto" >
+                <li class="navbar-items">
+                    <!-- <a href="#home" class="nav-link">Home</a> -->
+                </li>
+                <li class="navbar-items">
+                  <a href="login.php" class="nav-link">
+                    <button type="button" class="btn btn-primary tada-animation" data-mdb-animation-init data-mdb-animation="tada" data-mdb-animation-reset="true">
+                      Sign In
+                    </button>
+                  </a>
+                </li>
+                <li class="navbar-items">
+                  <a href="register.php" class="nav-link">
+                    <button type="button" class="btn btn-primary tada-animation" data-mdb-animation-init data-mdb-animation="tada" data-mdb-animation-reset="true">
+                      Sign Up
+                    </button>
+                  </a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- showcase -->
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-item-center justify-content">
+                <div>
+                    <h1>Welcome to<span class="text-warning">Scholarshipfinder</span></h1>
+                    <p class="lead my-4" >
+                        We’re thrilled to have you here! At Scholarshipfinder, 
+                        we believe that financial barriers should never stand in the way of your education.
+                         Our platform is designed to help you find scholarships and financial aid opportunities that match your needs,
+                          qualifications, and aspirations.
+                    </p>
+                    <a href="register.php">
+                      <button  class="btn btn-primary btn-lg mb-3 tada-animation" data-mdb-animation-init data-mdb-animation="tada" data-mdb-animation-reset="true">
+                        Apply Now
+                      </button>
+                    </a>
+                    
+                </div>
+                <!-- <img class=" img-fluid w-50 d-none d-sm-block mt-4" alt=""> -->
+            </div>
+        </div>
+     </section>
+
+
+
+    
+      <!-- Carousel -->
+      <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img src="images/carousel5.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item c-item">
+            <img src="images/carousel2.jpg" class="d-block w-100 c-img" alt="...">
+          </div>
+          <div class="carousel-item c-item">
+            <img src="images/carousel3.jpg" class="d-block w-100 c-img" alt="...">
+          </div>
+          <div class="carousel-item c-item">
+            <img src="images/carousel4.jpg" class="d-block w-100 c-img" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+       <!-- react seection -->
+       <section id="learn" class="p-5 bg-dark text-light">
+        <div class="row align-items-center justify-content-between">
+
+          <a href="#" class="btn btn-light mt-3">
+                <i class="bi bi-chevron-right"></i>Read more
+            </a>
+        </div>
+        <div class="col-md">
+            <img src="images/react.png " class="img-fluid" alt="">
+        </div>
+       </section>
+
+       <!-- Question Accordion -->
+        <!-- using the flush accordion -->
+        <section id="Questions" class="p-3">
+            <div class="container">
+                <h2 class="text-center mb-4">FAQ</h2>
+                <div class="accordion accordion-flush" id="Questions">
+                    <!-- Item 1 -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" 
+                      >
+                        <button class="accordion-button collapsed"
+                         type="button" data-bs-toggle="collapse" 
+                         data-bs-target="#Questions-one">
+                         How does the Scholarship Finder work?
+                        </button>
+                      </h2>
+                      <div id="Questions-one"
+                       class="accordion-collapse collapse"   
+                       data-bs-parent="#Questions">
+                        <div class="accordion-body">
+                          Our system matches you with scholarships based on your profile, including academic background, interests, demographics, and financial need. Simply fill out your profile once, and we'll suggest scholarships you may be eligible for.</div>
+                      </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" 
+                      >
+                        <button class="accordion-button collapsed"
+                         type="button" data-bs-toggle="collapse" 
+                         data-bs-target="#Questions-two">
+                         Is this service free to use?
+                        </button>
+                      </h2>
+                      <div id="Questions-two"
+                       class="accordion-collapse collapse"   
+                       data-bs-parent="#Questions">
+                        <div class="accordion-body">
+                          Yes, our platform is completely free for students. We believe everyone deserves access to higher education support without paying extra for it</div>
+                      </div>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" 
+                      >
+                        <button class="accordion-button collapsed"
+                         type="button" data-bs-toggle="collapse" 
+                         data-bs-target="#Questions-three">
+                         How often is the scholarship database updated?
+                        </button>
+                      </h2>
+                    <div id="Questions-three"
+                       class="accordion-collapse collapse"   
+                       data-bs-parent="#Questions">
+                        <div class="accordion-body">
+                          We update our scholarship listings regularly to ensure you get access to the latest opportunities. New scholarships are added and expired ones are removed on a rolling basis.</div>
+                      </div>
+                    </div>
+                    <!-- item 4 -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" 
+                      >
+                        <button class="accordion-button collapsed"
+                         type="button" data-bs-toggle="collapse" 
+                         data-bs-target="#Questions-four">
+                         Can the system help me understand financial aid options like FAFSA or grants?
+                        </button>
+                      </h2>
+                      <div id="Questions-four"
+                       class="accordion-collapse collapse"   
+                       data-bs-parent="#Questions">
+                        <div class="accordion-body">
+                          Absolutely! Our Financial Aid Advisor provides guidance on FAFSA, federal and state grants, loans, and work-study programs, helping you understand what’s available and how to apply</div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        
+
+
+        <!-- contact info -->
+         <section class="bg-primary">
+          <div class="container">
+            <div class="row g-6">
+              <div class="col-md">
+                <h2 class="text-center p-3">
+                  Contact Info
+                </h2>
+                <ul class="list-group-flsh lead">
+                  <li class="list-group item">
+                    <span class="fw-bold">Main Location:</span>NO 6 Francis Eghieye Street Gwagwalada Abuja. 
+                  </li>
+                  <li class="list-group item">
+                    <span class="fw-bold">Student Name:</span>Caleb Zachariah 
+                  </li>
+                  <li class="list-group item">
+                    <span class="fw-bold">Student Phone:</span>07059856137 
+                  </li>
+                  <li class="list-group item">
+                    <span class="fw-bold">Enrollment Email:</span>zackscaleb16@gmail.com 
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-md">
+                
+              </div>
+            </div>
+          </div>
+         </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- MDB -->
+<script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/9.0.0/mdb.umd.min.js"
+></script> 
+   
+
+  
+</body>
+</html>

@@ -1,0 +1,59 @@
+@media(min-width:768px){
+    .news-input{
+        width: 45%;
+    }
+}
+body::before{
+    display: block;
+    height: 60px;
+    content: '';
+}
+.c-item{
+    height: 480px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.2);
+}
+/* Add the tada animation on hover */
+.tada-animation:hover {
+    animation: tada 1s ease-in-out;
+}
+
+/* Define the 'tada' animation */
+@keyframes tada {
+    0% {
+        transform: scale(1);
+    }
+    10% {
+        transform: scale(1.1) rotate(3deg);
+    }
+    20% {
+        transform: scale(1) rotate(-3deg);
+    }
+    30% {
+        transform: scale(1.1) rotate(3deg);
+    }
+    40% {
+        transform: scale(1) rotate(-3deg);
+    }
+    50% {
+        transform: scale(1.1) rotate(2deg);
+    }
+    60% {
+        transform: scale(1) rotate(-2deg);
+    }
+    70% {
+        transform: scale(1.1) rotate(1deg);
+    }
+    80% {
+        transform: scale(1) rotate(-1deg);
+    }
+    90% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
